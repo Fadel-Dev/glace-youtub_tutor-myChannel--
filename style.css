@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1300px;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/14/12/16/flowers-7385729_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.glace{
+    background-color: #00000069;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    border-radius: 40px;
+}
+.glace p {
+    font-size: larger;
+    color: white;
+}
+
+.glace h1{
+    color: white;
+    padding-bottom: 5%;
+}
